@@ -1461,8 +1461,8 @@ fun SettingsScreen(
                             sliderValue = previewValue,
                             onSliderValueChange = { previewValue = it },
                             title = { Text(stringResource(Res.string.test_concurrency)) },
-                            valueRange = 1f..32f,
-                            valueSteps = 32,
+                            valueRange = 1f..5000f,
+                            valueSteps = 100,
                             icon = {
                                 Icon(
                                     vectorResource(Res.drawable.fast_forward),
